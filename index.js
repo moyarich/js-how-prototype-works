@@ -17,7 +17,7 @@ Moya's Story -
 
 
 Omg guys, I have a story. I have this friend name John. he is 
-really broke, he has no money. But he doesn't care, he likes to pretend that he is is rich.
+really broke, he has no money. But he doesn't care, he likes to pretend that he is rich.
 
 So, 3 days ago, John met this girl that he wanted to impress.
 He told this girl that he would pick her up at 7:30pm sharp and take her to a restaurant.
