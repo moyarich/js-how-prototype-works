@@ -55,6 +55,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prot
 
 https://bytearcher.com/articles/understanding-prototype-property-in-javascript/
 
+https://dev.to/codesmith_staff/explain-javascripts-prototype-chain-like-im-five-51p
+
+
 */
 
 //John is rich adjacent, not everything own by his father belongs to him, he sure cant use the helicopter
@@ -99,6 +102,13 @@ if (typeof john.helicopter === "undefined") {
 console.log("Father object", Father)
 console.log("John: object", john);
 
+//John's prototype
+console.log("----",Object.getPrototypeOf(john));
+
+
+
+//access to static property via constructor, not recommended, use Father.helicopter
+console.log("john stealing the helicopter:  ",john.__proto__.constructor.helicopter)
 
 //------------------------------------------------
 /**
